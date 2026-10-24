@@ -34,7 +34,7 @@ echo.
 rem --- Install dependencies ---
 echo Installing dependencies...
 venv\Scripts\python.exe -m pip install --upgrade pip
-venv\Scripts\python.exe -m pip install -r requirements.txt
+venv\Scripts\python.exe -m pip install --require-virtualenv -r requirements.txt
 if errorlevel 1 (
     echo ERROR: Dependency installation failed.
     goto :fail
