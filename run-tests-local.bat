@@ -8,4 +8,4 @@ if not exist venv (
     exit
 )
 
-"%~dp0venv\Scripts\python.exe" "%~dp0run.py" --run-tests tests %*
+"%~dp0venv\Scripts\python.exe" "%~dp0run.py" --run-tests test_files %*
