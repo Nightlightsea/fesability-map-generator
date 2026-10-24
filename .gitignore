@@ -6,4 +6,6 @@ figures/
 test*/
 # Python
 __pycache__/
+venv/
 *.pyc
+install.log
