@@ -1,5 +1,8 @@
 # feasibility_map
 
+**This programm was just made to test out an idea. 
+It was created by ai agents, i take no credit for it.**
+
 Standalone residence-feasibility map program (refactored from a larger
 private research project). It renders five field maps over the Bay Area /
 Solano / Napa road network (four per-scene drive-time fields + the combined
@@ -27,6 +30,8 @@ python -m feasibility_map     # from the parent directory (folder must be named 
 ```
 pip install -r requirements.txt    # numpy, requests, matplotlib, contextily, Pillow
 ```
+
+or run the setup(local) batch file. it installs all dependecies in the same folder.
 
 - Everything needed ships in the folder: `tiles/` (16 road tiles fetched once
   from the Overpass API, 155 MB) and `osrm_cache.json` (OSRM calibration
