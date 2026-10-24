@@ -40,17 +40,6 @@ if errorlevel 1 (
     goto :fail
 )
 
-rem --- Generate launcher scripts ---
-(
-    echo @echo off
-    echo "%%~dp0venv\Scripts\python.exe" "%%~dp0run.py" %%*
-) > "run-local.bat"
-
-(
-    echo @echo off
-    echo "%%~dp0venv\Scripts\python.exe" "%%~dp0run.py" --run-tests tests %%*
-) > "run-tests-local.bat"
-
 echo.
 echo Install finished.
 echo   Run the app:   run-local.bat
