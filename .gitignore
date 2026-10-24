@@ -3,7 +3,6 @@ cache/
 # rendered outputs
 figures/
 # per-test output folders (python -m feasibility_map -o test*)
-test*/
 # Python
 __pycache__/
 venv/

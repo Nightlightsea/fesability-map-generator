@@ -1,0 +1,46 @@
+{
+  "_comment": [
+    "TEST 01 -- 1969 Marin Renaissance Faire venue as a frontier town.",
+    "Source: Doerr Tapatalk thread #391 (1969 program, four Sept weekends), #663-664,",
+    "#718; venue per Wikipedia + Marin Magazine: fall NC Renaissance Faire at China",
+    "Camp State Park (San Rafael/Marinwood) 1967..~1970, then Black Point, Novato.",
+    "Sep 27 1969 (Berryessa day) was a Saturday faire weekend.",
+    "Adds the venue as a frontier town: its place-value row gives the calibrated",
+    "drive time to all four scenes. Budget: attack ~18:15-18:20; latest departure",
+    "from the faire = 18:15 minus that drive time minus ~15-20 min to change at the",
+    "lake. Kobek claimed the event 'began at 4pm and the timing would not work out'",
+    "-- verify hours in the program PDF (fairehistory.org RPFN-1969) before trusting 4pm.",
+    "cross_check extended so the run log verifies the venue against OSRM.",
+    "",
+    "Venue confirmed by Barkan (2022, quoting Kobek's research):",
+    "'a very large Renaissance fair ran the weekend of the murder, an hour and a",
+    "half drive from Lake Berryessa. It was a place where thousands of people",
+    "dressed up. It was plausible for Doerr to be there.'",
+    "https://rosselliotbarkan.com/p/did-this-writer-find-the-zodiac-killer",
+    "'An hour and a half drive' matches China Camp (this test), not Black Point."
+  ],
+  "towns": [
+    {"name": "Fairfield", "ll": [38.2494, -122.04], "tier": "frontier", "label_offset": [18, 16]},
+    {"name": "Suisun City", "ll": [38.2369, -122.0422], "tier": "frontier", "label_offset": [24, -2]},
+    {"name": "American Canyon", "ll": [38.1737, -122.26], "tier": "frontier", "label_offset": [-21, 22]},
+    {"name": "Cordelia", "ll": [38.2106, -122.1358], "tier": "frontier", "label_offset": [14, 40]},
+    {"name": "Vacaville", "ll": [38.3566, -121.9877], "tier": "frontier", "label_offset": [14, 12]},
+    {"name": "Vallejo", "ll": [38.1041, -122.2567], "tier": "frontier", "label_offset": [-68, 74]},
+    {"name": "Napa", "ll": [38.2977, -122.287], "tier": "frontier", "label_offset": [14, 12]},
+    {"name": "Sonoma", "ll": [38.2919, -122.458], "tier": "frontier", "label_offset": [3, 14]},
+    {"name": "Yountville", "ll": [38.4019, -122.3608], "tier": "frontier", "label_offset": [12, 14]},
+    {"name": "Glen Ellen", "ll": [38.363, -122.523], "tier": "frontier", "label_offset": [-14, -30]},
+    {"name": "San Francisco", "ll": [37.77, -122.47], "tier": "reference", "label_offset": [-83, 2]},
+    {"name": "Oakland", "ll": [37.8044, -122.2712], "tier": "reference", "label_offset": [16, -6]},
+    {"name": "San Rafael", "ll": [37.9735, -122.5311], "tier": "reference", "label_offset": [-18, 14]},
+    {"name": "Santa Rosa", "ll": [38.4404, -122.7141], "tier": "reference", "label_offset": [-52, 24]},
+    {"name": "Davis", "ll": [38.5452, -121.7416], "tier": "reference", "label_offset": [14, 14]},
+    {"name": "Sacramento", "ll": [38.5816, -121.4944], "tier": "reference", "label_offset": [-53, 20]},
+    {"name": "China Camp Faire", "ll": [38.083, -122.526], "tier": "frontier", "label_offset": [14, 12]}
+  ],
+  "cross_check": [
+    "Vallejo", "Napa", "Fairfield", "Santa Rosa", "Davis", "Oakland",
+    {"name": "SF Presidio Heights", "ll": [37.787, -122.442]},
+    "China Camp Faire"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "_comment": [
+    "TEST 10 -- best-case faire scenario: Doerr marker at China Camp + win=45.",
+    "Combines test 03 (marker move) with test 08 (generous Barkan 'plausible'",
+    "window). If his marker sits well inside the feasible zone here, the",
+    "same-day faire story holds up under favorable timing assumptions.",
+    "Venue: https://rosselliotbarkan.com/p/did-this-writer-find-the-zodiac-killer",
+    "('an hour and a half drive from Lake Berryessa').",
+    "NOTE: window change -> Berryessa field + pieces rebuild (~1-2 min first run)."
+  ],
+  "suspects": [
+    {"label": "Doerr\nat Ren Faire", "ll": [38.083, -122.526], "tier": "confirmed", "label_offset": [-92, 40]},
+    {"label": "Doerr job\nMare Island", "ll": [38.1041, -122.2567], "marker_ll": [38.1145, -122.273],
+     "tier": "confirmed", "label_offset": [-114, -40]},
+    {"label": "Allen\nVallejo", "ll": [38.1041, -122.2567], "marker_ll": [38.093, -122.24],
+     "tier": "eliminated", "label_offset": [44, -37]},
+    {"label": "Andrew\nBRS area", "ll": [38.106, -122.2235], "marker_ll": [38.0955, -122.2235],
+     "tier": "provisional", "label_offset": [-68, -45]},
+    {"label": "Hoffman\nVallejo PD", "ll": [38.104, -122.196], "tier": "provisional", "label_offset": [112, 16]},
+    {"label": "Mordecai\nSanta Rosa", "ll": [38.4404, -122.7141], "tier": "provisional", "label_offset": [20, 24]},
+    {"label": "Gaikowski\n2377 Bush St", "ll": [37.789, -122.421], "tier": "eliminated", "label_offset": [-64, 51]},
+    {"label": "Kane\n217 Eddy St", "ll": [37.7835, -122.4178], "tier": "eliminated", "label_offset": [44, -18]}
+  ],
+  "scenes": [
+    {"key": "LHR", "wp": "LHR_attack", "ll": [38.094871, -122.144099], "win": 6.0,
+     "label": "Lake Herman Rd\nDec 20 1968", "name": "Lake Herman Rd", "short": "LHR",
+     "label_offset": [25, -36]},
+    {"key": "BRS", "wp": "BRS_attack", "ll": [38.125834, -122.191085], "win": 8.0,
+     "label": "Blue Rock Springs\nJul 4 1969", "name": "Blue Rock Springs", "short": "BRS",
+     "label_offset": [52, 49]},
+    {"key": "Berryessa", "wp": "Berryessa_attack", "ll": [38.5724, -122.2362], "win": 45.0,
+     "label": "Lake Berryessa\nSep 27 1969", "name": "Lake Berryessa", "short": "Berryessa",
+     "label_offset": [14, 10]},
+    {"key": "Stine", "wp": "Stine", "ll": [37.78075, -122.4478], "win": 10.0,
+     "label": "Presidio Heights\nOct 11 1969", "name": "Presidio Heights", "short": "Stine",
+     "label_offset": [58, -57]}
+  ]
+}
