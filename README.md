@@ -31,7 +31,7 @@ python -m feasibility_map     # from the parent directory (folder must be named 
 pip install -r requirements.txt    # numpy, requests, matplotlib, contextily, Pillow
 ```
 
-or run the setup(local) batch file. it installs all dependecies in the same folder.
+**or run the setup(local) batch file. it installs all dependecies in the same folder.**
 
 - Everything needed ships in the folder: `tiles/` (16 road tiles fetched once
   from the Overpass API, 155 MB) and `osrm_cache.json` (OSRM calibration
